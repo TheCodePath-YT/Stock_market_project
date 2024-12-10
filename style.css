@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(24, 14, 61);
+  color: white;
+}
+#stock-cont {
+  display: flex;
+}
+#chartContainer {
+  width: 55%;
+  margin: 20px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 5px;
+}
+#stock-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  padding: 10px;
+}
+.stock-item {
+  display: flex;
+}
+.stock-profit {
+  display: flex;
+}
+.stock-profit p {
+  margin: 0 15px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.stock-profit p:nth-child(2) {
+  color: green;
+}
+.stock-loss p:nth-child(2) {
+  color: brown;
+  margin: 0 31px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.stock-loss {
+  margin: 0 15px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+h3 {
+  font-size: medium;
+  font-weight: normal;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(52, 31, 127);
+  width: 55px;
+  cursor: pointer;
+}
+.chart-btn {
+  cursor: pointer;
+  background-color: rgb(52, 31, 127);
+  border: 2px solid blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+}
+#stock-details-summ {
+  display: flex;
+}
+#stock-details-summ p {
+  padding-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;  
+}
+#stock-details-summ p:nth-child(2) {
+  color: green;
+}
+.chartTimeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stock Market Analysis</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Stock Market Analysis</h1>
+  <div id="stock-cont">
+    <div id='chartContainer'>
+      <canvas id='stockChart' width="400" height="200"></canvas>
+      <div class="chartTimeBtn">
+        <button id='btn1Month' class="chart-btn">1 Month</button>
+        <button id='btn3Month' class="chart-btn">3 Months</button>
+        <button id='btn1Year' class="chart-btn">1 Year</button>
+        <button id='btn5Year' class="chart-btn">5 Years</button>
+      </div>
+    </div>
+    <div id="stock-list"></div>
+  </div>
+  <div id="stock-details-summ"></div>
+  <div id="stock-summary"></div>
+  <!-- <script type='module' src="main.js"></script> -->
+  <script src="stockMarketChart.js"></script>
+
+</body>
+
+</html>
